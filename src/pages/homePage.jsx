@@ -1,9 +1,10 @@
-function HomePage(){
-return(
-    <>
-    <div className="w-screen h-screen bg-[assets/tcfPoster.png] bg-cover bg-center"></div>
-    </>
-)
+
+function HomePage() {
+  return (
+    <div className="bg-cover bg-center min-h-[90vh] w-[100vw]">
+      <img src="../assets/tcfPoster.png" alt="" />
+    </div>
+  );
 }
 
 export default HomePage;
